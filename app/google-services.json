@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "352565092709",
+    "firebase_url": "https://dreamsychology.firebaseio.com",
+    "project_id": "dreamsychology",
+    "storage_bucket": "dreamsychology.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352565092709:android:a3fd14d8b42d68a0",
+        "android_client_info": {
+          "package_name": "cloud.mushfiq.buet.dreamsychology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352565092709-ga9s3vll153k8a2if0jsa4bpjug2h223.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.mushfiq.buet.dreamsychology",
+            "certificate_hash": "a743b212a9fc7d9a918a4a310d7cf4218d1070c6"
+          }
+        },
+        {
+          "client_id": "352565092709-ed76qlmmbu5j9n6d6974eum1c0f8p6i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.mushfiq.buet.dreamsychology",
+            "certificate_hash": "047df85fcc09e1fcfd2989ed8f1e6e38bb32f9d1"
+          }
+        },
+        {
+          "client_id": "352565092709-4sbo58hjn2bubbn9uumof5ogng14k4pi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cloud.mushfiq.buet.dreamsychology",
+            "certificate_hash": "2f77c055a8c5a5ea56d02c601488d378a0462ddf"
+          }
+        },
+        {
+          "client_id": "352565092709-ad70gn2ctc38r4n6nepufpjicq9n8ame.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyeiRjDqlW3jrszEUl0egPgK2xFZUZYkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352565092709-ad70gn2ctc38r4n6nepufpjicq9n8ame.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

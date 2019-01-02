@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dream Psychology</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chat_user">chat_user</string>
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="title_activity_manage">Management</string>
+    <string name="dialog_confirm">Are you sure to remove this volunteer?</string>
+    <string name="dialog_ok">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dialog_save">Create saved Reply</string>
+
+    <string name="facebook_application_id" translatable="false">472561639752429</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">472561639752429</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logo"
+                android:paddingEnd="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/logo_256"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/dream"
+                android:textColor="@color/com_facebook_blue"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="0dp"
+                android:text="Dream Psychology"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_toEndOf="@+id/logo"
+                android:layout_below="@+id/dream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingBottom="30dp"
+                android:text="Version 1.0 (Beta)"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/text"
+                android:layout_below="@+id/logo"
+                android:textColor="#000000"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="0dp"
+                android:layout_gravity="center"
+                android:text="We are creating all kind of psychological content to improve your life, to increase your mental ability, productivity, to reform individual and society perception for better and to create awareness about mental health importance."/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000000"
+                android:paddingTop="20dp"
+                android:id="@+id/text0"
+                android:layout_below="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="0dp"
+                android:text="Address:"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000000"
+                android:id="@+id/text00"
+                android:layout_below="@+id/text0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="20dp"
+                android:text="57/11 , East Rajabazar\n(4th floor) , West\nPanthopath\nE-mail: dreampsychoteam@gmail.com\nWebsite: www.dream-psychology.com/"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="20dp"
+                android:id="@+id/text1"
+                android:layout_below="@+id/text00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="0dp"
+                android:text="App development:"
+                android:textStyle="bold"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/text2"
+                android:layout_below="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="20dp"
+                android:text="Md. Mushfiqur Rahman\nEEE, BUET\nTeam Member\nDream Psychology\nrmushfiqur2@gmail.com"/>
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/text3"
+                android:layout_below="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="20dp"
+                android:text="This app is in deveoping state. Please Send bug info to us, if any."/>
+            <EditText
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/text4"
+                android:layout_below="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="20dp"
+                android:hint="Example: After sending message, time I see that ...."/>
+            <Button
+                android:id="@+id/text5"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="send"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

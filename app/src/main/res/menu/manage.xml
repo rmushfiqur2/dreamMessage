@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="buet.mushfiq.myscientistsrecycle.MainActivity">
+    <item
+        android:icon="@drawable/ic_menu_manage"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/replies"
+        android:id="@+id/action_replies"
+        android:orderInCategory="100"
+        android:title="Replies"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@drawable/apo_icon"
+        android:id="@+id/action_apo"
+        android:orderInCategory="100"
+        android:title="Appointment"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>

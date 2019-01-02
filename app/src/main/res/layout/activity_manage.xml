@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        android:id="@+id/nrel"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Active Chats in Last weeks:"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            />
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph" />
+        <TextView
+            android:id="@+id/overall"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overall service reicipents: "
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textAlignment="center"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="text"
+                android:textSize="17sp"
+                android:layout_toStartOf="@+id/add"
+                android:id="@+id/editemail"
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:hint="E-mail or phone"
+                android:layout_centerVertical="true"
+                android:background="@drawable/border"
+                android:padding="5dp"/>
+            <Button
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#ffffff"
+                android:background="@color/green"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:text="Add"
+                android:padding="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:nestedScrollingEnabled="false"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_marginBottom="0dp"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+</FrameLayout>

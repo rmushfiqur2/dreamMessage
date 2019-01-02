@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="FAFA">#FAFAFA</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff0004</color>
+    <color name="green">#51d93f</color>
+    <color name="violet">#3d84ae</color>
+    <color name="yellow">#ece477</color>
+    <color name="orange">#f57423</color>
+    <color name="pink">#f420ed</color>
+</resources>

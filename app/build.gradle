@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'Class Friend'
+            keyPassword 'confirmit'
+            storeFile file('C:/Users/HP/Documents/DreamPSy.jks')
+            storePassword 'confirmit'
+        }
+    }
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId 'cloud.mushfiq.buet.dreamsychology'
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 6
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        generatedDensities = []
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            useProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation 'com.firebaseui:firebase-ui-auth:3.2.2'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.google.firebase:firebase-ads:11.8.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.google.firebase:firebase-firestore:11.8.0'
+    implementation 'com.jjoe64:graphview:4.2.1'
+    implementation 'com.facebook.android:facebook-android-sdk:4.27.0'
+
+}
+apply plugin: 'com.google.gms.google-services'
